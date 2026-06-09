@@ -1,0 +1,17 @@
+{
+  "name": "Linux Desktop VM",
+  "image": "://microsoft.com",
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {
+      "version": "latest",
+      "password": "vscode"
+    }
+  },
+  "forwardPorts":,
+  "portsAttributes": {
+    "6080": {
+      "label": "Linux Desktop GUI",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
